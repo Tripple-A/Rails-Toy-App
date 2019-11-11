@@ -8,7 +8,13 @@
 <p>
   <strong>Email:</strong>
   <%= @user.email %>
+</p>
+
+<p>
+  <strong>Micropost:</strong>
   <%= @user.microposts.first.content %>
+  <strong>created at</strong>
+  <%= @user.microposts.first.created_at %>
 </p>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
