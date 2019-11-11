@@ -4,7 +4,7 @@
 
 #### Contributors
 * [Ajibade Abiodun](https://github.com/Tripple-A)
-* [Izaias Neto](https://github.com/abruzy)
+* [Izaias Neto](https://github.com/izaiasneto4)
 
 ### Project Goal
 
