@@ -1,0 +1,74 @@
+Started GET "/users/1" for 127.0.0.1 at 2019-11-11 18:31:50 +0100
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 1.3ms | Allocations: 11989)
+Started GET "/users" for 127.0.0.1 at 2019-11-11 18:31:57 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (Duration: 22.7ms | Allocations: 1638)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.5ms | Allocations: 5650)
+Started GET "/" for 127.0.0.1 at 2019-11-11 18:31:59 +0100
+Processing by ApplicationController#hello as HTML
+Completed 500 Internal Server Error in 286ms (ActiveRecord: 0.0ms | Allocations: 46312)
+Started GET "/" for 127.0.0.1 at 2019-11-11 18:33:00 +0100
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.5ms | Allocations: 4)
+Completed 200 OK in 23ms (Views: 21.1ms | Allocations: 727)
+Started GET "/users" for 127.0.0.1 at 2019-11-11 18:34:05 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (Duration: 9.2ms | Allocations: 359)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 1.1ms | Allocations: 1293)
+Started GET "/users" for 127.0.0.1 at 2019-11-11 18:35:15 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 369)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.7ms | Allocations: 1311)
+Started GET "/users" for 127.0.0.1 at 2019-11-11 18:37:17 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (Duration: 7.8ms | Allocations: 631)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.9ms | Allocations: 2173)
+Started GET "/" for 127.0.0.1 at 2019-11-11 18:39:32 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 244)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.7ms | Allocations: 648)
+Started GET "/" for 127.0.0.1 at 2019-11-11 18:41:08 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 359)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.7ms | Allocations: 1294)
+Started GET "/users" for 127.0.0.1 at 2019-11-11 18:41:15 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 235)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.3ms | Allocations: 630)
+Started GET "/" for 127.0.0.1 at 2019-11-11 18:42:33 +0100
+Processing by ApplicationController#hello as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 2)
+Completed 200 OK in 4ms (Views: 1.9ms | Allocations: 470)
+Started GET "/users" for 127.0.0.1 at 2019-11-11 18:42:56 +0100
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 380)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 1.9ms | Allocations: 1314)
+Started GET "/microposts/new" for 127.0.0.1 at 2019-11-11 18:45:45 +0100
+Processing by MicropostsController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms | Allocations: 556)
